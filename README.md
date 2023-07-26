@@ -28,3 +28,6 @@
 - step 4: activating virtual env => source ./my_env/Scripts/activate
 - step 5: deactivating virtual env => my_env/Scripts>deavtivate
 
+# Installing django
+- python -m pip install django
+- django-admin startproject "name"
