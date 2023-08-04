@@ -28,6 +28,13 @@
 - step 4: activating virtual env => source ./my_env/Scripts/activate
 - step 5: deactivating virtual env => my_env/Scripts>deavtivate
 
-# Installing django
+# Installing Django
 - python -m pip install django
-- django-admin startproject "name"
+- Django-admin start project "name"
+# Project folder structure
+- `__init__.py` The folder which contains __init__.py file is considered as python package
+- `wsgi.py` WSGI (Web Server Gateway Interface) is a specification that describes how a web server communicates with web applications, synchronously.
+- `asgi.py` Asynchronous Server Gateway Interface. ASGI provides standards for both asynchronous and synchronous
+- `settings.py` This file contains all the information or data about project settings. E.g. Database configuration information, template, Installed Application, Validators, etc.
+- `urls.py` contains information of URL attached to the application
+- `manage.py` manage.py is a project-specific command-line utility
