@@ -30,7 +30,7 @@
 
 # Installing Django
 - python -m pip install django
-- Django-admin start project "name"
+- django-admin startproject "name"
 # Project folder structure
 - `__init__.py` The folder which contains __init__.py file is considered as python package
 - `wsgi.py` WSGI (Web Server Gateway Interface) is a specification that describes how a web server communicates with web applications, synchronously.
